@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% extends "home.html" %}
+
+{% block head_title %}allmovies{% endblock%}
+
+{% block body_block %}
+    <h3>This is List of All Movies</h3>
+    {% for movie in movies %}
+    <br/>
+    <a href="/singlemovie/{{movie.mid}}">{{movie.title}}</a>
+    <br/>
+    {% endfor %}
+    <br/><br/>
+    <div class="pagination">
+        Page : {{ page_number }} of {{ last_page_number }}<br/>
+        <a href="?page=1">&laquo; first</a>
+        {% if prev_page_number %}
+            <a href="/listallmovies?page={{ prev_page_number }}">previous</a>
+        {% endif %}
+        {% if next_page_number %}
+            <a href="/listallmovies?page={{ next_page_number }}">next</a>
+        {% endif %}
+        <a href="/listallmovies?page={{ last_page_number }}">last</a>
+    </div>
+    <br/><br/>
+{% endblock %}
