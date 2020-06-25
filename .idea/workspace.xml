@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcece6e4-b19b-49ce-8825-cb19fd4f30cd" name="Default Changelist" comment="" />
+    <list default="true" id="dcece6e4-b19b-49ce-8825-cb19fd4f30cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/templates/watchlist/playlists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/watchlist/single_playlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/movies/single_movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/movies/single_movie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movier/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/movier/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movier/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/movier/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movier/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movier/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/populate.py" beforeDir="false" afterPath="$PROJECT_DIR$/populate.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,56 +26,63 @@
     <session id="756878479">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="22" />
-          <entry key="py" value="53" />
+          <entry key="html" value="31" />
+          <entry key="py" value="58" />
           <entry key="sqlite3" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="22" />
+          <entry key="HTML" value="31" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="53" />
+          <entry key="Python" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2766" />
-          <entry key="py" value="12335" />
+          <entry key="html" value="3880" />
+          <entry key="py" value="21298" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2766" />
-          <entry key="Python" value="12335" />
+          <entry key="HTML" value="3880" />
+          <entry key="Python" value="21298" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/schema.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="262">
+              <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1592853648777" expanded="true" signature="205:649" ph="..." />
-                <marker date="1592853648777" expanded="true" signature="394:649" ph="..." />
-                <marker date="1592853648777" expanded="true" signature="958:1083" ph="..." />
+                <marker date="1593095604555" expanded="true" signature="131:719" ph="..." />
+                <marker date="1593095604555" expanded="true" signature="320:719" ph="..." />
+                <marker date="1593095604555" expanded="true" signature="405:505" ph="..." />
+                <marker date="1593095604555" expanded="true" signature="718:719" ph="..." />
+                <marker date="1593095604555" expanded="true" signature="1301:1628" ph="..." />
+                <marker date="1593095604555" expanded="true" signature="1687:1777" ph="..." />
+                <marker date="1593095604555" expanded="true" signature="1841:2024" ph="..." />
+                <marker date="1593095604555" expanded="true" signature="2083:2244" ph="..." />
               </folding>
             </state>
           </provider>
@@ -70,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movier/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="527">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding>
                 <element signature="e#640#668#0" expanded="true" />
               </folding>
@@ -79,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="765">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -92,22 +113,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movier/schema.py">
+        <entry file="file://$PROJECT_DIR$/app/templates/watchlist/playlists.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movier/settings.py">
+        <entry file="file://$PROJECT_DIR$/app/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+            <state relative-caret-position="85">
+              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -115,11 +133,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="234" column="4" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
+              <folding>
+                <element signature="e#2701#2736#0" expanded="true" />
+                <marker date="1593092317139" expanded="true" signature="1343:1348" ph="..." />
+                <marker date="1593092317139" expanded="true" signature="1376:1382" ph="..." />
+                <marker date="1593092317139" expanded="true" signature="1794:2097" ph="..." />
+                <marker date="1593092317139" expanded="true" signature="5108:5308" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/watchlist/single_playlist.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/movies/single_movie.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="32" lean-forward="true" selection-end-line="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/movies/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -142,17 +196,19 @@
         <option value="$PROJECT_DIR$/app/templates/movies/createlist.html" />
         <option value="$PROJECT_DIR$/app/templates/watchlist/listcreated.html" />
         <option value="$PROJECT_DIR$/app/templates/watchlist/createlist.html" />
+        <option value="$PROJECT_DIR$/app/templates/home.html" />
+        <option value="$PROJECT_DIR$/app/templates/movies/all.html" />
+        <option value="$PROJECT_DIR$/movier/schema.py" />
+        <option value="$PROJECT_DIR$/movier/settings.py" />
         <option value="$PROJECT_DIR$/populate.py" />
         <option value="$PROJECT_DIR$/app/templates/movies/page.html" />
-        <option value="$PROJECT_DIR$/app/templates/home.html" />
-        <option value="$PROJECT_DIR$/app/templates/index.html" />
-        <option value="$PROJECT_DIR$/app/templates/movies/all.html" />
-        <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/app/templates/movies/single_movie.html" />
-        <option value="$PROJECT_DIR$/app/views.py" />
-        <option value="$PROJECT_DIR$/movier/settings.py" />
-        <option value="$PROJECT_DIR$/movier/schema.py" />
+        <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/app/templates/index.html" />
         <option value="$PROJECT_DIR$/movier/urls.py" />
+        <option value="$PROJECT_DIR$/app/templates/watchlist/playlists.html" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/app/templates/watchlist/single_playlist.html" />
         <option value="$PROJECT_DIR$/app/schema.py" />
       </list>
     </option>
@@ -240,7 +296,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="775" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25644916" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -252,7 +307,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32985073" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -267,8 +322,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32985073" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -278,9 +333,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/movier/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -298,14 +350,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.sqlite3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-851" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db.sqlite3" />
     <entry file="file://$PROJECT_DIR$/app/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -316,34 +361,10 @@
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/watchlist/listcreated.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pip/_vendor/cachecontrol/_cmd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/populate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/movies/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#379#386#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -358,16 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#1840#1847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -378,69 +389,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/movies/single_movie.html">
+    <entry file="file://$PROJECT_DIR$/app/templates/watchlist/listcreated.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-end-line="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/movier/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        <state relative-caret-position="534">
+          <caret line="144" column="12" lean-forward="true" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movier/urls.py">
+    <entry file="file://$PROJECT_DIR$/populate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#640#668#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="347">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/movier/schema.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/schema.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1592853648777" expanded="true" signature="205:649" ph="..." />
-            <marker date="1592853648777" expanded="true" signature="394:649" ph="..." />
-            <marker date="1592853648777" expanded="true" signature="958:1083" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="765">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/movies/single_movie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="32" lean-forward="true" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/movies/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movier/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="e#640#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/watchlist/playlists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/watchlist/single_playlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="234" column="4" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
+          <folding>
+            <element signature="e#2701#2736#0" expanded="true" />
+            <marker date="1593092317139" expanded="true" signature="1343:1348" ph="..." />
+            <marker date="1593092317139" expanded="true" signature="1376:1382" ph="..." />
+            <marker date="1593092317139" expanded="true" signature="1794:2097" ph="..." />
+            <marker date="1593092317139" expanded="true" signature="5108:5308" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1593095604555" expanded="true" signature="131:719" ph="..." />
+            <marker date="1593095604555" expanded="true" signature="320:719" ph="..." />
+            <marker date="1593095604555" expanded="true" signature="405:505" ph="..." />
+            <marker date="1593095604555" expanded="true" signature="718:719" ph="..." />
+            <marker date="1593095604555" expanded="true" signature="1301:1628" ph="..." />
+            <marker date="1593095604555" expanded="true" signature="1687:1777" ph="..." />
+            <marker date="1593095604555" expanded="true" signature="1841:2024" ph="..." />
+            <marker date="1593095604555" expanded="true" signature="2083:2244" ph="..." />
           </folding>
         </state>
       </provider>

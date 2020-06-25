@@ -35,25 +35,27 @@ def complete():
     count=data["total_results"]
     cnt=0
     print(pages)
-    for i in range(20,22):
+    for i in range(1,20):
         print(str(i))
-        res=requests.get('https://api.themoviedb.org/3/discover/movie?api_key='+api_key+'&sort_by=release_date.desc&include_adult=false&include_video=false&page='+str(i))
+        # res=requests.get('https://api.themoviedb.org/3/discover/movie?api_key='+api_key+'&sort_by=release_date.desc&include_adult=false&include_video=false&page='+str(i))
+        res=requests.get('https://api.themoviedb.org/3/movie/popular?api_key='+api_key+'&language=en-US&page='+str(i))
         data=res.json()
         for r in data["results"]:
             cnt=cnt+1
-            Movies.objects.get_or_create(
-            mid = r["id"],
-            vote_count = r["vote_count"],
-            vote_average = r["vote_average"],
-            release_date = r["release_date"],
-            language = r["original_language"],
-            title = r["original_title"],
-            adult = r["adult"],
-            popularity = r["popularity"],
-            poster_path = r["poster_path"],
-            genre_ids = r["genre_ids"],
-            overview = r["overview"],
-            )
+            if r["original_language"]=="en":
+                Movies.objects.get_or_create(
+                mid = r["id"],
+                vote_count = r["vote_count"],
+                vote_average = r["vote_average"],
+                release_date = r["release_date"],
+                language = r["original_language"],
+                title = r["original_title"],
+                adult = r["adult"],
+                popularity = r["popularity"],
+                poster_path = r["poster_path"],
+                genre_ids = r["genre_ids"],
+                overview = r["overview"],
+                )
     print("number of entries = "+ str(cnt))
 
 complete()

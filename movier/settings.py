@@ -25,7 +25,10 @@ SECRET_KEY = '=5%#i@e^7#rnxb*6i7y%@%3a&w_o6qw!nve-$wz%((e6qlw$gu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    'http://127.0.0.1'
+]
 
 
 # Application definition
@@ -39,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app',
     'graphene_django',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -49,6 +53,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'movier.urls'
@@ -91,9 +96,6 @@ DATABASES = {
     }
 }
 
-GRAPHENE = {
- 'SCHEMA': 'movier.schema.schema'
-}
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
@@ -132,3 +134,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+GRAPHENE = {
+ 'SCHEMA': 'movier.schema.schema'
+}
+
+
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost',
+    'http://127.0.0.1'
+]

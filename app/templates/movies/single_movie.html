@@ -63,7 +63,8 @@
     <div class="dropdown">
       <button onclick="myFunction()" class="dropbtn">Add to list</button>
       <div id="myDropdown" class="dropdown-content">
-          {% for playlist in playlists%}
+          <form method="GET" action="/createmyownlist"><input type="text" name="listname"><input type="hidden" name="mid" value={{movie.mid}}><button type="submit">create new</button></form>
+          {% for playlist in playlists %}
           <a href="/addtowatchlist?mid={{movie.mid}}&lid={{playlist.lid}}">{{playlist.name}}</a>
           {% endfor %}
       </div>
@@ -72,22 +73,21 @@
     <script>
         function myFunction() {
           document.getElementById("myDropdown").classList.toggle("show");
-
         }
 
-        // Close the dropdown menu if the user clicks outside of it
-        window.onclick = function(event) {
-          if (!event.target.matches('.dropbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-              var openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-              }
-            }
-          }
-        }
+        <!--// Close the dropdown menu if the user clicks outside of it-->
+        <!--window.onclick = function(event) {-->
+          <!--if (!event.target.matches('.dropbtn')) {-->
+            <!--var dropdowns = document.getElementsByClassName("dropdown-content");-->
+            <!--var i;-->
+            <!--for (i = 0; i < dropdowns.length; i++) {-->
+              <!--var openDropdown = dropdowns[i];-->
+              <!--if (openDropdown.classList.contains('show')) {-->
+                <!--openDropdown.classList.remove('show');-->
+              <!--}-->
+            <!--}-->
+          <!--}-->
+        <!--}-->
     </script>
 
 {% endblock %}

@@ -19,7 +19,7 @@ class Movies(models.Model):
 
 
 class Lists(models.Model):
-    lid = models.IntegerField(primary_key=True)
+    lid = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100,null=True)
     mylist = ArrayField(
         models.IntegerField(null=True,blank=True),
@@ -29,7 +29,7 @@ class Lists(models.Model):
     )
 
     def __str__(self):
-        return self.name
+        return str(self.lid)
 
 #
 # class Users(models.Model):

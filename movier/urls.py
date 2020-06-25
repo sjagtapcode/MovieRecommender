@@ -17,16 +17,19 @@ from django.urls import path
 from django.conf.urls import url
 from django.contrib import admin
 
+from django.views.decorators.csrf import csrf_exempt
 from app import views
 from graphene_django.views import GraphQLView
 from movier.schema import schema
 
 urlpatterns = [
-    url('admin', admin.site.urls),
+    path('admin/', admin.site.urls),
+    path('graphql/', csrf_exempt(GraphQLView.as_view(graphiql=True))),
     path('addtowatchlist',views.addtowatchlist),
     path('listallmovies', views.listallmovies),
-    url('createlist', views.createlist),
+    path('createmyownlist',views.createmyownlist),
     path('singlemovie/<int:id>', views.singlemovie),
-    path('graphql',GraphQLView.as_view(graphiql=True)),
+    path('singleplaylist/<int:id>', views.singleplaylist),
+    path('listalllist',views.listalllist),
     url('', views.index),
 ]
